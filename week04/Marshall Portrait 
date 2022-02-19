@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Week03</title>
+        <title></title>
     </head>
     <body style="background-color: pink;">
 
@@ -17,8 +17,8 @@
      <h3 style="color: white; text-align: left; font-family: cursive;" >Assignment List</h3>
 <hr>
 
-      <a href = "../week01/index.html"> Long Live The Web & As We May Think</a>
+      <a href = "week01/"> Long Live The Web & As We May Think</a>
       <hr>
-      <a href="./ways_of_seeing.html"> Ways of Seeing</a>
+      <a href="ways_of_seeing.html/"> Ways of Seeing</a>
     </body>
     </html>
