@@ -14,14 +14,17 @@
 
 <body>
     <div class="circle"></div>
-    <div class="mouth"></div>
+    <div class="mouth">
+        <div id="piano"> <img src="piano.png" style="width: 200px; height: auto;"></div>
+    </div>
+<div class="lglass">
     <div class="leye"></div>
+</div>
+<div class="brdg"></div>
+<div class="rglass">
     <div class="reye"></div>
-    <div class="lglass"></div>
-    <div class="rglass"></div>
+</div>
 
-
-    <img src="piano.png" style="width: auto;">
 
     <div id="scottflag"><img src="scotland.jpg" style="width: 150px; height: auto;"></div>
     <div id="DenmarkFlag"> <img src="denmarkflad.jpg" style="width:100px; height: auto;"></div>
