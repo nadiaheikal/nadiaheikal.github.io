@@ -1,0 +1,50 @@
+body{
+    background-color: thistle;
+}
+
+h1{
+    text-align: center; 
+    font-family: 'Palette Mosaic', cursive;
+    color: khaki;
+    padding: 10px 10px 
+}
+
+h1:hover{
+    color: powderblue;
+    background-color: seashell;
+}
+
+.star img{
+    display: block;
+    width: 70%;
+    align-self: center;
+    margin: 10px auto;
+}
+
+.left{
+    font-family: 'Palette Mosaic', cursive;
+    text-align: left;
+}
+
+.right{
+    font-family: 'Palette Mosaic', cursive;
+    text-align: right;
+}
+
+.left h2, .right h2{
+
+    font-family: 'Palette Mosaic', cursive;
+    font-size: 40px;
+    margin: 30px auto;
+}
+
+.left h2:hover{
+    background: seashell;
+}
+.right h2:hover{
+    background: seashell;
+}
+
+.cake:hover:after{
+content:" - bla bla bla"
+}
