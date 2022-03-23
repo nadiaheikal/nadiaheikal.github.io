@@ -45,6 +45,26 @@ h1:hover{
     background: seashell;
 }
 
+.book:hover::after{
+    content:" - Finds wisdom and amusement in the mundane." ;
+}
+
 .cake:hover:after{
-content:" - bla bla bla"
+content:" - Hopeless expectations and misleading adventures." ;
+}
+
+.essays:hover:after{
+    content:" - A collection of short essays in the form of a memoir." ;
+}
+
+.coming:hover:after{
+    content:" - A celebration of uncertainty and fallibility." ;
+}
+
+.womanhood:hover:after{
+    content:" - Feminine stereotypes and breaking the mold";
+}
+
+.comedy:hover:after{
+    content:" - Shoots for the stars and lands on the ceiling";
 }
