@@ -2,30 +2,31 @@
 
 body {
     font-size: 60px;
-    
-     font-family: cursive; 
       color: white;
-     background-color: pink;
+ background-image: url("./Images4home/eugene.png");
     }
 
 h1{
     text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
 }
 
 h3 {
     color: white;
      text-align: left;
-     font-family: cursive;
+     font-family: 'Oswald', sans-serif;
      padding: 10px 0px;
     }
-
-h3:hover{
-    color: teal;
-}
 
 
     a { 
         font-size: 40px;
         text-align: left;
         margin-left: 0px;
+        text-decoration: none;
+        color: white;
+    }
+
+    a:hover{
+        color: royalblue;
     }
