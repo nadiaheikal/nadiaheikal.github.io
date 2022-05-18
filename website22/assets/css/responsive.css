@@ -1,0 +1,584 @@
+@media only screen and (min-width: 1430px) {
+    .container {
+        max-width: 1290px;
+    }
+}
+
+@media only screen and (min-width: 1600px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (min-width: 1800px) {
+    .container {
+        max-width: 1440px;
+    }
+}
+
+@media only screen and (max-width: 1599px) {}
+
+@media only screen and (max-width: 1429px) {
+    section.herosection {
+        padding: 200px 0px 80px;
+    }
+    .about-left.col-md-6.col-12 {
+        padding: 0;
+    }
+    section.aboutus {
+        padding: 10px 30px;
+    }
+    .quizedetail {
+        padding-left: 20px;
+    }
+    section.summersec h2 {
+        font-size: 44px;
+    }
+}
+
+@media only screen and (max-width: 1199px) {
+    .quizedetail h3 {
+        font-size: 29px;
+    }
+    .item h1 {
+        font-size: 40px;
+    }
+    .item p {
+        font-size: 18px;
+    }
+    ul.phone li a {
+        font-size: 14px;
+    }
+    .common-title {
+        font-size: 30px;
+    }
+    .about-content h4 {
+        font-size: 30px;
+    }
+    .about-content p {
+        font-size: 14px;
+    }
+    .about-right.col-md-6.col-12 {
+        display: flex;
+        align-items: center;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    section.herosec.quizsec .col-lg-6:first-child {
+        /* order: 1; */
+    }
+    .subdetail ul {
+        margin-bottom: 40px;
+    }
+    /* Icon 1 */
+    #nav-icon1,
+    #nav-icon2,
+    #nav-icon3,
+    #nav-icon4 {
+        width: 30px;
+        height: 30px;
+        position: relative;
+        /* margin: 50px auto; */
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .5s ease-in-out;
+        -o-transition: .5s ease-in-out;
+        transition: .5s ease-in-out;
+        cursor: pointer;
+        z-index: 999;
+    }
+    #nav-icon1 span,
+    #nav-icon3 span,
+    #nav-icon4 span {
+        display: block;
+        position: absolute;
+        height: 2px;
+        width: 100%;
+        background: #070707;
+        border-radius: 9px;
+        opacity: 1;
+        left: 0;
+        -webkit-transform: rotate(0deg);
+        -ms-transform: rotate(0deg);
+        transform: rotate(0deg);
+        -webkit-transition: .25s ease-in-out;
+        -o-transition: .25s ease-in-out;
+        transition: .25s ease-in-out;
+    }
+    /* Icon 4 */
+    #nav-icon4 span:nth-child(1) {
+        top: 0px;
+        -webkit-transform-origin: left center;
+        -ms-transform-origin: left center;
+        transform-origin: left center;
+    }
+    #nav-icon4 span:nth-child(2) {
+        top: 12px;
+        -webkit-transform-origin: left center;
+        -ms-transform-origin: left center;
+        transform-origin: left center;
+        width: 75%;
+        right: 0;
+        left: unset;
+    }
+    #nav-icon4 span:nth-child(3) {
+        top: 24px;
+        -webkit-transform-origin: left center;
+        -ms-transform-origin: left center;
+        transform-origin: left center;
+    }
+    #nav-icon4.open span:nth-child(1) {
+        -webkit-transform: rotate(45deg);
+        -ms-transform: rotate(45deg);
+        transform: rotate(45deg);
+        top: 0px;
+        left: 0px;
+        width: 30px !important;
+    }
+    #nav-icon4.open span:nth-child(2) {
+        width: 0%;
+        opacity: 0;
+    }
+    #nav-icon4.open span:nth-child(3) {
+        -webkit-transform: rotate(-45deg);
+        -ms-transform: rotate(-45deg);
+        transform: rotate(-45deg);
+        top: 21px;
+        left: 0px;
+        width: 30px;
+    }
+    button.navbar-toggler {
+        position: absolute;
+        right: 28px;
+        top: 28px;
+        padding: 0;
+    }
+    button.navbar-toggler {
+        right: 15px !important;
+        top: 28px !important;
+    }
+    nav.navbar.navbar-expand-lg {
+        padding-top: 14px;
+    }
+    .togglemenu span {
+        background: white !important;
+    }
+    .togglemenu.open span {
+        background: black !IMPORTANT;
+    }
+    .mainmenu a {
+        color: black !important;
+    }
+    .quizedetail {
+        margin: auto;
+    }
+    .firsttrends {
+        max-width: 590px;
+        margin: auto;
+    }
+    /**********  Responsive Menu Bootstrap **********/
+    .navbar-expand-lg>.container {
+        padding-left: 15px;
+        padding-right: 15px;
+    }
+    /**  menu  **/
+    .toggler {
+        width: 50px;
+        height: 50px;
+        line-height: 50px;
+        padding: 0;
+        border-radius: 5px;
+        background-color: #fff;
+        border: 1px solid #7bc00b;
+        text-align: center;
+        z-index: 99;
+        display: block;
+        transition: all 0.5s;
+        margin-left: 20px;
+    }
+    .show-menu .toggler {
+        width: 40px;
+        height: 40px;
+        position: fixed;
+        top: 20px;
+        right: 20px;
+        border: none;
+    }
+    .toggler span {
+        position: relative;
+        width: 60%;
+        height: 2px;
+        background-color: #7bc00b;
+        display: inline-block;
+        vertical-align: top;
+        top: 50%;
+        -webkit-transform: translateY(-50%);
+        -moz-transform: translateY(-50%);
+        -ms-transform: translateY(-50%);
+        -o-transform: translateY(-50%);
+        transform: translateY(-50%);
+    }
+    .toggler span::before,
+    .toggler span::after {
+        position: absolute;
+        content: "";
+        width: 100%;
+        height: 2px;
+        background-color: #7bc00b;
+        right: 0;
+        transition: all 0.5s;
+        animation: openCloseByeSpan 300ms linear forwards;
+    }
+    .toggler span::before {
+        top: -6px;
+    }
+    .toggler span::after {
+        top: 6px;
+    }
+    .show-menu .toggler span::before,
+    .show-menu .toggler span::after {
+        left: 0;
+        right: 0;
+        margin: auto;
+        transform: rotate(45deg);
+        top: -5px;
+    }
+    .show-menu .toggler span::after {
+        transform: rotate(-45deg);
+    }
+    .show-menu .toggler span {
+        height: 0;
+    }
+    #navbarNav {
+        background: #fff no-repeat bottom right / auto 170px;
+        box-shadow: 0 0px 0 10px #fff inset, 0 0 0 11px #7bc00b inset;
+        padding: 60px 20px 15px;
+        position: fixed;
+        top: 0;
+        right: 0;
+        display: block !important;
+        width: 100% !important;
+        text-align: center;
+        bottom: 0;
+        -webkit-transition: all 0.5s ease 0s;
+        -moz-transition: all 0.5s ease 0s;
+        -ms-transition: all 0.5s ease 0s;
+        -o-transition: all 0.5s ease 0s;
+        transition: all 0.5s ease 0s;
+        -webkit-transform: translateX(110%);
+        -moz-transform: translateX(110%);
+        -ms-transform: translateX(110%);
+        -o-transform: translateX(110%);
+        transform: translateX(110%);
+        height: auto !important;
+        overflow: auto;
+    }
+    .show-menu #navbarNav {
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+    .show-menu .navbar-toggler {
+        position: fixed;
+        z-index: 5;
+        right: 15px;
+        border-radius: 5px;
+        padding: 2px;
+        top: 15px;
+    }
+    .show-menu .navbar-toggler-icon {
+        background-image: url("../images/close.svg");
+        background-size: 14px auto;
+    }
+    .navbar-nav .nav-item {
+        margin-left: 0;
+    }
+    .navbar .navbar-nav .nav-link {
+        font-size: 18px;
+        padding: 10px 10px;
+        margin: 0;
+        line-height: 1.2;
+    }
+    .navbar-nav .nav-link:hover {
+        color: #7bc00b;
+    }
+    .navbar-nav .active .nav-link {
+        color: #7bc00b;
+        font-weight: bold;
+    }
+    .navbar-nav .nav-item .dropdown-item {
+        text-align: center;
+        padding: 10px 10px;
+    }
+    .navbar-nav .dropdown-menu {
+        margin: 0;
+        padding: 0;
+        border-radius: 0;
+    }
+    /**  Menu  **/
+    /**********  Responsive Menu  **********/
+}
+
+@media only screen and (max-width: 1199px) {
+    .common-title {
+        margin: 60px 0px 80px;
+    }
+    .about-head {
+        padding-top: 16%;
+    }
+}
+
+@media only screen and (max-width: 991px) {
+    section {
+        padding-bottom: 30px;
+        padding-top: 30px;
+    }
+    .common-title {
+        margin: 40px 0 60px;
+        font-size: 34px;
+    }
+    .item h1 {
+        font-size: 3rem;
+    }
+    .about-content h4 {
+        font-size: 30px;
+    }
+    .about-content p {
+        font-size: 16px;
+        line-height: 28px;
+    }
+    .about-head {
+        padding-top: 20%;
+    }
+    .sec-heading h2 {
+        font-size: 30px;
+    }
+    .sec-heading {
+        margin-bottom: 10px;
+    }
+    .product-banner {
+        height: 100%;
+    }
+    .product-banner .product-des {
+        font-size: 14px;
+    }
+    .product-banner .product-info .product-title {
+        margin-top: 10px;
+        font-size: 32px;
+    }
+    section.herosec.trendssec .col-lg-6 {
+        max-width: 50%;
+    }
+    .summertrandinfo h2 {
+        font-size: 40px;
+        line-height: 61px;
+    }
+}
+
+@media only screen and (max-width: 767px) {
+    .summerimg {
+        height: 500px;
+    }
+    section.summersec h2 {
+        font-size: 30px;
+    }
+    div#summer {
+        margin: 0;
+    }
+    section.herosec.trendssec .col-lg-6 {
+        max-width: 100%;
+    }
+    section.herosection {
+        padding-top: 20%;
+    }
+    .item h1 {
+        font-size: 2rem;
+        margin: 0 0 8px;
+    }
+    .item p {
+        font-size: 16px;
+    }
+    .item a {
+        margin: 15px 0 0;
+    }
+    .common-title {
+        font-size: 30px;
+        margin: 30px 0 60px;
+    }
+    .about-content h4 {
+        font-size: 26px;
+    }
+    .topheading h6 {
+        font-size: 13px;
+    }
+    .about-head {
+        padding-top: 26%;
+    }
+    .about-banner1 {
+        margin: 0 0 30px;
+    }
+    .mission-box {
+        margin: 0 0 15px;
+    }
+    .sec-heading h2 {
+        font-size: 26px;
+        margin: 30px 0px 20px;
+    }
+    .sec-heading p {
+        font-size: 14px;
+    }
+    .product-banner .product-info .product-title {
+        font-size: 30px;
+    }
+    .latest-proudct .product-right {
+        margin: 30px 0 0;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+    .quizedetail h3 {
+        font-size: 24px;
+        margin: 0;
+    }
+    .col-11.col-sm-9.col-md-7.col-lg-6.text-center.p-0.mt-3.mb-2 {
+        margin-top: 0 !IMPORTANT;
+    }
+    .quizedetail {
+        margin-top: 30px;
+    }
+    ul.social {
+        justify-content: center;
+    }
+    .topheading {
+        text-align: center;
+    }
+    ul.phone {
+        margin: 15px 0;
+    }
+    section.herosection {
+        padding-top: 50%;
+    }
+    .about-left {
+        padding-right: 0px;
+    }
+    .about-right {
+        margin: 30px 0 0;
+    }
+    .about-item {
+        text-align: center;
+        width: 100%;
+    }
+    .about-head {
+        padding-top: 46%;
+    }
+    .about-item {
+        margin: 0 0 20px;
+    }
+    .about-item:last-child {
+        margin: 0
+    }
+    .sec-heading h2 {
+        font-size: 24px;
+    }
+    .product-banner .product-info {
+        margin: 30px 0 0;
+    }
+    .product-left h4 {
+        font-size: 22px;
+    }
+    .product-right {
+        margin: 30px 0 0;
+    }
+}
+
+@media only screen and (max-width: 479px) {
+    .quizedetail {
+        padding-left: 10px;
+    }
+    .quizedetail h3 {
+        font-size: 22px;
+    }
+    .col-md-12.mx-0 {
+        padding: -0;
+    }
+    .subdetail h6 {
+        font-size: 16px;
+    }
+    .subdetail ul label {
+        font-size: 14px;
+    }
+    .card.px-0.pt-4.pb-0.mt-3.mb-3 {
+        margin: 0 !IMPORTANT;
+    }
+    .about-content h4 {
+        font-size: 22px;
+    }
+    .about-content p {
+        font-size: 14px;
+        line-height: 22px;
+    }
+    .common-title {
+        font-size: 26px;
+    }
+    .summertrandinfo h2 {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 349px) {
+    .summerimg {
+        height: 400px;
+    }
+    section.summersec h2 {
+        font-size: 26px;
+    }
+    section.summersec {
+        padding-top: 10px;
+    }
+    .quizedetail h3 {
+        font-size: 19px;
+        line-height: 20px;
+    }
+    form#msform {
+        margin-top: 10px;
+    }
+    .subdetail h6 {
+        font-size: 15px;
+    }
+    .about-head {
+        padding-top: 75%;
+    }
+    .contact-form h3 {
+        font-size: 24px;
+        margin-bottom: 15px;
+    }
+    ul.phone li {
+        margin: 0 8px;
+    }
+    ul.phone a {
+        font-size: 14px;
+    }
+    section.herosection {
+        padding-top: 70%;
+    }
+    .about-content h4 {
+        font-size: 20px;
+    }
+    .item h1 {
+        font-size: 22px;
+    }
+    .item p {
+        font-size: 14px;
+    }
+    .Contact .contact-form {
+        padding-top: 0px;
+    }
+    .sec-heading h2 {
+        font-size: 20px;
+        margin: 30px 0px 10px;
+    }
+}

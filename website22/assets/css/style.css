@@ -1,0 +1,1091 @@
+/*********************  Default-CSS  *********************/
+
+input[type="file"]::-webkit-file-upload-button {
+    cursor: pointer;
+  }
+  
+  input[type="file"]::-moz-file-upload-button {
+    cursor: pointer;
+  }
+  
+  input[type="file"]::-ms-file-upload-button {
+    cursor: pointer;
+  }
+  
+  input[type="file"]::-o-file-upload-button {
+    cursor: pointer;
+  }
+  
+  input[type="file"],
+  a[href],
+  input[type="submit"],
+  input[type="button"],
+  input[type="image"],
+  label[for],
+  select,
+  button,
+  .pointer {
+    cursor: pointer;
+  }
+  
+  ::-moz-focus-inner {
+    border: 0px solid transparent;
+  }
+  
+  ::-webkit-focus-inner {
+    border: 0px solid transparent;
+  }
+  
+  *::-moz-selection {
+    color: #fff;
+    background: #000;
+  }
+  
+  *::-webkit-selection {
+    color: #fff;
+    background: #000;
+  }
+  
+  *::-webkit-input-placeholder {
+    color: #333333;
+    opacity: 1;
+  }
+  
+  *:-moz-placeholder {
+    color: #333333;
+    opacity: 1;
+  }
+  
+  *::-moz-placeholder {
+    color: #333333;
+    opacity: 1;
+  }
+  
+  *:-ms-input-placeholder {
+    color: #333333;
+    opacity: 1;
+  }
+  
+  html body {
+    font-family: "Red Hat Display";
+    margin: 0;
+    line-height: 1.3;
+  }
+  
+  a,
+  div a:hover,
+  div a:active,
+  div a:focus,
+  button {
+    text-decoration: none;
+    -webkit-transition: all 0.5s ease 0s;
+    -moz-transition: all 0.5s ease 0s;
+    -ms-transition: all 0.5s ease 0s;
+    -o-transition: all 0.5s ease 0s;
+    transition: all 0.5s ease 0s;
+  }
+  
+  a,
+  span,
+  div a:hover,
+  div a:active,
+  button {
+    text-decoration: none;
+  }
+  
+  *::after,
+  *::before,
+  * {
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    box-sizing: border-box;
+  }
+  
+  .no-list li,
+  .no-list ul,
+  .no-list ol,
+  footer li,
+  footer ul,
+  footer ol,
+  header li,
+  header ul,
+  header ol {
+    list-style: inside none none;
+  }
+  
+  .no-list ul,
+  .no-list ol,
+  footer ul,
+  footer ol,
+  header ul,
+  header ol {
+    margin: 0;
+    padding: 0;
+  }
+  
+  a {
+    outline: none;
+    color: #555;
+  }
+  
+  a:hover {
+    color: #000;
+  }
+  
+  body .clearfix,
+  body .clear {
+    clear: both;
+    line-height: 100%;
+  }
+  
+  body .clearfix {
+    height: auto;
+  }
+  
+  * {
+    outline: none !important;
+  }
+  
+  table {
+    border-collapse: collapse;
+    border-spacing: 0;
+  }
+  
+  ul:after,
+  li:after,
+  .clr:after,
+  .clearfix:after,
+  .container:after,
+  .grve-container:after {
+    clear: both;
+    display: block;
+    content: "";
+  }
+  
+  div input,
+  div select,
+  div textarea,
+  div button {
+    font-family: "Red Hat Display";
+  }
+  
+  body h1,
+  body h2,
+  body h3,
+  body h4,
+  body h5,
+  body h6 {
+    font-family: "Red Hat Display";
+    line-height: 120%;
+    color: #333;
+    font-weight: bold;
+    margin: 0 0 15px;
+  }
+  
+  body h1:last-child,
+  body h2:last-child,
+  body h3:last-child,
+  body h4:last-child,
+  body h5:last-child,
+  body h6:last-child {
+    margin-bottom: 0;
+  }
+  
+  div select {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+  }
+  
+  div select option {
+    font-size: 13px;
+    color: #333;
+    padding: 2px 5px;
+  }
+  
+  img {
+    margin: 0 auto;
+    max-width: 100%;
+    max-height: 100%;
+    width: auto;
+    height: auto;
+  }
+  
+  body p {
+    color: #333;
+    font-family: "Red Hat Display";
+    font-size: 15px;
+    line-height: 140%;
+    margin: 0 0 15px;
+    padding: 0;
+  }
+  
+  body p:empty {
+    margin: 0;
+    line-height: 0;
+  }
+  
+  body p:last-child {
+    margin-bottom: 0;
+  }
+  
+  p strong {
+    font-weight: bold;
+  }
+  
+  .a-left {
+    text-align: left;
+  }
+  
+  .a-right {
+    text-align: right;
+  }
+  
+  .a-center {
+    text-align: center;
+  }
+  
+  label em {
+    color: #ff0000;
+    display: inline-block;
+    font-style: normal;
+    vertical-align: top;
+    margin-left: 5px;
+  }
+  
+  .hidden {
+    display: none !important;
+  }
+  
+  body .container {
+    width: 100%;
+    max-width: 1200px;
+  }
+  
+  /*********************  scroll Hide  *********************/
+  
+  html.show-menu {
+    overflow: hidden;
+  }
+  
+  html.show-menu body {
+    overflow: hidden;
+    height: 100%;
+  }
+  
+  /*********************  Default-CSS close  *********************/
+  
+  /*********************  Gapping  *********************/
+  
+  section {
+    padding-bottom: 60px;
+    padding-top: 60px;
+  }
+  
+  /*********************  Gapping close  *********************/
+  
+  /*********************  Default-CSS  *********************/
+  
+  /*********************  Common-Css  *******************/
+  
+  .clr:after,
+  ul:after,
+  .clearfix:after,
+  li:after,
+  .grve-container:after {
+    clear: both;
+    display: block;
+    content: "";
+  }
+  
+  .btn.focus,
+  .btn:focus {
+    box-shadow: none !important;
+  }
+  
+  .form-control:focus {
+    box-shadow: none !important;
+  }
+  
+  /*********************  Common-Css Close  *******************/
+  
+  /*********************  Header  *******************/
+  
+  header {
+    left: 0;
+    position: fixed;
+    right: 0;
+    top: 0;
+    transform: all 0.5s;
+    z-index: 999;
+  }
+  
+  /*********************  Header Close  *******************/
+  
+  /*********************  Home banner  *******************/
+  
+  section.herosec {
+    padding: 0;
+    max-height: calc(100vh - 60px);
+    position: relative;
+    height: 100%;
+  }
+  
+  section.herosec video {
+    width: 100%;
+  }
+  
+  ul.navbar-nav.ml-auto a {
+    font-family: 'Red Hat Display';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #ffffff;
+  }
+  
+  ul.navbar-nav.ml-auto li {
+    margin-left: 40px;
+  }
+  
+  section.herosec iframe {
+    width: 100%;
+    height: 100%;
+  }
+  
+  nav.navbar.navbar-expand-lg {
+    padding: 5px 0px;
+  }
+  
+  section.herosec {
+    overflow: hidden;
+  }
+  
+  header.white {
+    position: relative;
+  }
+  
+  header.white a {
+    color: black !important;
+  }
+  
+  .content-overlay {
+    background: rgba(0, 0, 0, 0.7);
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    opacity: 0;
+    -webkit-transition: all 0.4s ease-in-out 0s;
+    -moz-transition: all 0.4s ease-in-out 0s;
+    transition: all 0.4s ease-in-out 0s;
+  }
+  
+  .firsttrends img {
+    /* width: 100%; */
+  }
+  
+  .firsttrends:hover .content-overlay {
+    opacity: 1;
+  }
+  
+  .firsttrends:hover .summertrandinfo {
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+  }
+  
+  .summertrandinfo {
+    position: absolute;
+    text-align: center;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    opacity: 0;
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    -moz-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+  }
+  
+  .summertrandinfo h2 {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 111px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  
+  .firsttrends {
+    position: relative;
+    text-align: right;
+    width: 100%;
+  }
+  
+  section.herosec .col-lg-6 {
+  }
+  
+  section.summersec {
+    padding: 0;
+    padding-top: 40px;
+    text-align: center;
+    height: calc(100vh - 60px);
+  }
+  
+  section.summersec h2 {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 40px;
+  
+    /* identical to box height */
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-bottom: 40px;
+  }
+  
+  .summerimg {
+    position: relative;
+  }
+  
+  .summerinfo {
+    position: absolute;
+    bottom: 0;
+    text-align: center;
+    width: 100%;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+  }
+  
+  .summerinfo p {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    text-align: center;
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    background: #33a3ab;
+    padding: 10px 0px;
+  }
+  
+  div#summer {
+    max-width: 992px;
+    margin: 42px auto 0;
+  }
+  
+  .item {
+    transform: scale(0.9);
+    transition: all 0.5s;
+  }
+  
+  .center .item {
+    transform: scale(1);
+    transition: all 0.5s;
+  }
+  
+  .owl-nav button {
+    margin: 0px 25px;
+  }
+  
+  .owl-nav button i {
+    font-size: 24px;
+  }
+  
+  .owl-nav {
+    margin-top: 28px;
+    margin-bottom: 28px;
+  }
+  
+  .item img {
+    filter: brightness(0.6);
+  }
+  
+  .center .item img {
+    filter: brightness(1);
+  }
+  
+  .owl-item {
+    transition: all 0.5s;
+  }
+  
+  .summerimg {
+    height: 620px;
+  }
+  
+  .summerimg img {
+    object-fit: cover;
+  }
+  
+  /*Background color*/
+  
+  #grad1 {
+    background-color: #9c27b0;
+    background-image: linear-gradient(120deg, #ff4081, #81d4fa);
+  }
+  
+  /*form styles*/
+  
+  #msform {
+    text-align: center;
+    position: relative;
+    margin-top: 20px;
+  }
+  
+  #msform fieldset .form-card {
+    /* background: white; */
+    border: 0 none;
+    border-radius: 0px;
+    /* box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2); */
+    /* padding: 20px 40px 30px 40px; */
+    box-sizing: border-box;
+    /* width: 94%; */
+    /* margin: 0 3% 20px 3%; */
+    /*stacking fieldsets above each other*/
+    position: relative;
+  }
+  
+  #msform fieldset {
+    background: white;
+    border: 0 none;
+    border-radius: 0.5rem;
+    box-sizing: border-box;
+    width: 100%;
+    margin: 0;
+    padding-bottom: 20px;
+    /*stacking fieldsets above each other*/
+    position: relative;
+  }
+  
+  /*Hide all except first fieldset*/
+  
+  #msform fieldset:not(:first-of-type) {
+    display: none;
+  }
+  
+  #msform fieldset .form-card {
+    text-align: left;
+    color: #9e9e9e;
+  }
+  
+  #msform input,
+  #msform textarea {
+    padding: 0px 8px 4px 8px;
+    border: none;
+    border-bottom: 1px solid #ccc;
+    border-radius: 0px;
+    /* margin-bottom: 25px; */
+    /* margin-top: 5px; */
+    /* width: 100%; */
+    box-sizing: border-box;
+    font-family: montserrat;
+    color: #33a3ab;
+    font-size: 16px;
+    letter-spacing: 1px;
+    width: 16px;
+    height: 16px;
+  }
+  
+  #msform input:focus,
+  #msform textarea:focus {
+    -moz-box-shadow: none !important;
+    -webkit-box-shadow: none !important;
+    box-shadow: none !important;
+    border: none;
+    font-weight: bold;
+    border-bottom: 2px solid skyblue;
+    outline-width: 0;
+  }
+  
+  /*Blue Buttons*/
+  
+  #msform .action-button {
+    width: 100px;
+    /* background: skyblue; */
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    /* margin: 10px 5px; */
+    height: 50px;
+    background: #33a3ab;
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 23px; */
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    padding-top: 0;
+  }
+  
+  #msform .action-button:hover,
+  #msform .action-button:focus {
+    /* box-shadow: 0 0 0 2px white, 0 0 0 3px skyblue; */
+  }
+  
+  /*Previous Buttons*/
+  
+  #msform .action-button-previous {
+    width: 100px;
+    background: #616161;
+    font-weight: bold;
+    color: white;
+    border: 0 none;
+    border-radius: 0px;
+    cursor: pointer;
+    padding: 10px 5px;
+    /* margin: 10px 5px; */
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    /* line-height: 23px; */
+    letter-spacing: 0.03em;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 0 !important;
+    height: 50px;
+    margin-right: 17px;
+    float: left;
+    padding-top: 0;
+  }
+  
+  #msform .action-button-previous:hover,
+  #msform .action-button-previous:focus {
+    box-shadow: 0 0 0 2px white, 0 0 0 3px #616161;
+  }
+  
+  /*Dropdown List Exp Date*/
+  
+  select.list-dt {
+    border: none;
+    outline: 0;
+    border-bottom: 1px solid #ccc;
+    padding: 2px 5px 3px 5px;
+    margin: 2px;
+  }
+  
+  select.list-dt:focus {
+    border-bottom: 2px solid skyblue;
+  }
+  
+  /*The background card*/
+  
+  .card {
+    z-index: 0;
+    border: none;
+    border-radius: 0.5rem;
+    position: relative;
+    padding: 0 !important;
+  }
+  
+  /*FieldSet headings*/
+  
+  .fs-title {
+    font-size: 25px;
+    color: #2c3e50;
+    margin-bottom: 10px;
+    font-weight: bold;
+    text-align: left;
+  }
+  
+  /*progressbar*/
+  
+  #progressbar {
+    margin-bottom: 30px;
+    overflow: hidden;
+    color: lightgrey;
+  }
+  
+  #progressbar .active {
+    color: #000000;
+  }
+  
+  #progressbar li {
+    list-style-type: none;
+    font-size: 12px;
+    width: 25%;
+    float: left;
+    position: relative;
+  }
+  
+  /*Icons in the ProgressBar*/
+  
+  #progressbar #account:before {
+    font-family: FontAwesome;
+    content: "\f023";
+  }
+  
+  #progressbar #personal:before {
+    font-family: FontAwesome;
+    content: "\f007";
+  }
+  
+  #progressbar #payment:before {
+    font-family: FontAwesome;
+    content: "\f09d";
+  }
+  
+  #progressbar #confirm:before {
+    font-family: FontAwesome;
+    content: "\f00c";
+  }
+  
+  /*ProgressBar before any progress*/
+  
+  #progressbar li:before {
+    width: 50px;
+    height: 50px;
+    line-height: 45px;
+    display: block;
+    font-size: 18px;
+    color: #ffffff;
+    background: lightgray;
+    border-radius: 50%;
+    margin: 0 auto 10px auto;
+    padding: 2px;
+  }
+  
+  /*ProgressBar connectors*/
+  
+  #progressbar li:after {
+    content: "";
+    width: 100%;
+    height: 2px;
+    background: lightgray;
+    position: absolute;
+    left: 0;
+    top: 25px;
+    z-index: -1;
+  }
+  
+  /*Color number of the step and the connector before it*/
+  
+  #progressbar li.active:before,
+  #progressbar li.active:after {
+    background: skyblue;
+  }
+  
+  /*Imaged Radio Buttons*/
+  
+  .radio-group {
+    position: relative;
+    margin-bottom: 25px;
+  }
+  
+  .radio {
+    display: inline-block;
+    width: 204;
+    height: 104;
+    border-radius: 0;
+    background: lightblue;
+    box-shadow: 0 2px 2px 2px rgba(0, 0, 0, 0.2);
+    box-sizing: border-box;
+    cursor: pointer;
+    margin: 8px 2px;
+  }
+  
+  .radio:hover {
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+  }
+  
+  .radio.selected {
+    box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.1);
+  }
+  
+  /*Fit image in bootstrap div*/
+  
+  .fit-image {
+    width: 100%;
+    object-fit: cover;
+  }
+  
+  .subdetail ul {
+    padding: 0;
+    list-style: none;
+    margin-bottom: 4rem;
+  }
+  
+  section.herosec .row {
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 100%;
+    max-height: calc(100vh - 60px);
+  }
+  
+  .subdetail ul label {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    /* line-height: 40px; */
+    /* or 250% */
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-left: 9px;
+  }
+  
+  .subdetail ul li {
+    display: flex;
+    align-items: flex-start;
+    margin-bottom: 8px;
+  }
+  
+  .subdetail h6 {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 26px;
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-bottom: 20px;
+  }
+  
+  .quizedetail h3 {
+    font-family: "Red Hat Display";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 28px;
+  
+    /* identical to box height */
+    /* text-align: center; */
+    letter-spacing: 0.03em;
+    color: #000000;
+    margin-top: 3rem;
+  }
+  
+  .quizedetail {
+    /* height: 100%; */
+    /* display: flex; */
+    /* align-items: center; */
+    /* flex-wrap: wrap; */
+    width: 100%;
+    /* padding-left: 367px; */
+    max-width: 590px;
+    margin-right: 0;
+    margin-left: auto;
+  }
+  
+  section.herosec .col-lg-6 {
+    max-height: calc(100vh - 60px);
+    padding: 0;
+  }
+  
+  .col-11.col-sm-9.col-md-7.col-lg-6.text-center.p-0.mt-3.mb-2 {
+    max-width: 100%;
+  }
+  
+  .nextbtns {
+    display: flex;
+    align-items: center;
+  }
+  
+  section.herosec.trendssec .col-lg-6:last-child {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+  
+  section.herosec.trendssec img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: top;
+  }
+  
+  .item .summerinfo {
+    opacity: 0;
+  }
+  
+  .center .summerinfo {
+    opacity: 1;
+  }
+  
+  [type="radio"]:checked,
+  [type="radio"]:not(:checked) {
+    position: absolute;
+    left: -9999px;
+  }
+  
+  [type="radio"]:checked + label,
+  [type="radio"]:not(:checked) + label {
+    position: relative;
+    padding-left: 28px;
+    cursor: pointer;
+    line-height: 20px;
+    display: inline-block;
+    color: #666;
+  }
+  
+  [type="radio"]:checked + label:before,
+  [type="radio"]:not(:checked) + label:before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 19px;
+    height: 18px;
+    border: 1px solid #33a3ab;
+    border-radius: 100%;
+    background: #fff;
+    padding: 0;
+  }
+  
+  [type="radio"]:checked + label:after,
+  [type="radio"]:not(:checked) + label:after {
+    content: "";
+    width: 12px;
+    height: 12px;
+    background: #33a3ab;
+    position: absolute;
+    top: 3px;
+    left: 3.2px;
+    border-radius: 100%;
+    -webkit-transition: all 0.2s ease;
+    transition: all 0.2s ease;
+  }
+  
+  [type="radio"]:not(:checked) + label:after {
+    opacity: 0;
+    -webkit-transform: scale(0);
+    transform: scale(0);
+  }
+  
+  [type="radio"]:checked + label:after {
+    opacity: 1;
+    -webkit-transform: scale(1);
+    transform: scale(1);
+  }
+  
+  section.herosec.video {
+    height: 100vh;
+    max-height: 100%;
+  }
+  
+  section.herosec.video video {
+    height: 100%;
+    object-fit: cover;
+  }
+  
+  /*********************  Home banner Close  *******************/
+  
+  .firsttrends a {
+    display: block;
+    position: relative;
+    max-height: calc(100vh - 60px);
+  }
+  .btn-blue {
+    background: #33a3ab;
+    color: #fff;
+    font-size: 15px;
+    padding: 10px 20px;
+    font-weight: 500;
+    text-transform: capitalize;
+  }
+  
+  .quiz-sections {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    z-index: 999;
+    text-align: center;
+    background: #fff;
+    height: calc(100% - 60px);
+    width: 100%;
+    display: flex;
+    align-items: center;
+    padding: 15px;
+    transition: all 0.5s;
+  }
+  
+  .quiz-sections h1 {
+    font-size: 2rem;
+  }
+  
+  .quiz-sections.hide-section {
+    opacity: 0;
+  
+    visibility: hidden;
+    transition: all 0.5s;
+  }
+  .index-page {
+    cursor: none;
+    overflow: hidden;
+  }
+  .pointer {
+    position: absolute;
+    height: 480px;
+    top: 100px;
+    width: 480px;
+    left: 50%;
+    pointer-events: none;
+  }
+  
+  .pointer img {
+    width: 140px;
+  }
+  section.herosec.resultsec {
+    padding: 60px 0;
+  }
+  
+  .result-detail h1 {
+    font-size: 2rem;
+    margin: 0 0 20px 0;
+  text-align: left;}
+  
+  .result-detail h3 {
+    font-size: 1.5rem;
+    margin-bottom: 8px;
+  margin-top: 0;text-align: left;color: #333;}
+  
+  .result-detail p {
+    font-size: 14px;
+    font-weight: 500;
+    max-width: 748px;
+  text-align: left;}
+  
+  .result-img {
+    display: block;
+    max-width: 350px;
+    height: 400px;
+    position: relative;
+    border: 1px solid #3331;
+  }
+  
+  .result-img img {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+  }
+  
